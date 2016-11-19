@@ -20,7 +20,9 @@ To read the tidy_mean.csv use:
 df_tidy_mean <- read.csv("tidy_mean.csv")
 
 To run the script:
+
 \> source("run_analysis.R")
+
 \> run_analysis()
 
 
@@ -33,5 +35,7 @@ The script performs the following activities:
 2. Extracts teh data files(unzips) to the "UCI HAR Dataset" folder, if it does not exist it will createit
 
 To run the script:
+
 \> source("download_data_clean_proj.R")
+
 \> download_data_clean_proj()
