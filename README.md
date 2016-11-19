@@ -19,12 +19,9 @@ Note:
 To read the tidy_mean.csv use:
 df_tidy_mean <- read.csv("tidy_mean.csv")
 
-To run the script:
-
-\> source("run_analysis.R")
-
-\> run_analysis()
-
+To run the script:  
+\> source("run_analysis.R")  
+\> run_analysis()  
 
 
 There is a second R script, `download_data_clean_proj.R` to download and unzip the files.
@@ -34,8 +31,6 @@ The script performs the following activities:
 1. Downloads the zip dataset if it does not already exist in the working directory
 2. Extracts teh data files(unzips) to the "UCI HAR Dataset" folder, if it does not exist it will createit
 
-To run the script:
-
-\> source("download_data_clean_proj.R")
-
-\> download_data_clean_proj()
+To run the script:  
+\> source("download_data_clean_proj.R")  
+\> download_data_clean_proj()  
