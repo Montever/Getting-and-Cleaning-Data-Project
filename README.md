@@ -15,13 +15,15 @@ The main R script, `run_analysis.R` performs the following activities:
 9. Sumarizes (mean) all the variables, grouping by subject and activity
 10.Creates (writes) the "tidy_mean.txtv"
 
-Note: 
-To read the tidy_mean.csv use:
-df_tidy_mean <- read.table("tidy_mean.txt")
+Note:  
+To read the tidy_mean.csv use:  
+df_tidy_mean <- read.table("tidy_mean.txt")  
 
 To run the script:  
+```
 \> source("run_analysis.R")  
 \> run_analysis()  
+```
 
 
 There is a second R script, `download_data_clean_proj.R` to download and unzip the files.
@@ -32,5 +34,7 @@ The script performs the following activities:
 2. Extracts teh data files(unzips) to the "UCI HAR Dataset" folder, if it does not exist it will createit
 
 To run the script:  
+```
 \> source("download_data_clean_proj.R")  
 \> download_data_clean_proj()  
+```
