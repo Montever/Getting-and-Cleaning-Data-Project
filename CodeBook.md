@@ -1,6 +1,6 @@
 # Code Book
 
-This code book describes the data structure in "mean_tidy.txt" generated as part of the
+This code book describes the data structure in "tidy_mean.txt" generated as part of the
 Getting and Cleaning Data Course-Project.
 
 ## Dimensions 

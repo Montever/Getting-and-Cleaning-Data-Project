@@ -13,11 +13,11 @@ The main R script, `run_analysis.R` performs the following activities:
 7. Appropriately labels the data set with descriptive variable names using join
 8. Merges Subject, Activity and Feature
 9. Sumarizes (mean) all the variables, grouping by subject and activity
-10.Creates (writes) the "tidy_mean.csv"
+10.Creates (writes) the "tidy_mean.txtv"
 
 Note: 
 To read the tidy_mean.csv use:
-df_tidy_mean <- read.csv("tidy_mean.csv")
+df_tidy_mean <- read.table("tidy_mean.txt")
 
 To run the script:  
 \> source("run_analysis.R")  

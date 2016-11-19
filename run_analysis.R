@@ -84,8 +84,8 @@ df_all_data  <- cbind(df_sub_all ,df_act_all , df_fea_sel )
 #Use summarise_each to get the mean o all metrics
 df_mean_data <-summarise_each(group_by(df_all_data ,SubjectId, ActivityName),funs(mean))
 
-write.csv(df_mean_data, file = "tidy_mean.csv",row.names=FALSE)
+write.table(df_mean_data, file = "tidy_mean.txt",row.names=FALSE)
 
-print("file tidy_mean.csv created")
+print("file tidy_mean.txt created")
 #end of program
 }
