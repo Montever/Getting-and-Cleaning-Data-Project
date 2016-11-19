@@ -17,12 +17,14 @@ The main R script, `run_analysis.R` performs the following activities:
 
 Note:  
 To read the tidy_mean.csv use:  
+```
 df_tidy_mean <- read.table("tidy_mean.txt")  
+```
 
 To run the script:  
 ```
-\> source("run_analysis.R")  
-\> run_analysis()  
+> source("run_analysis.R")  
+> run_analysis()  
 ```
 
 
@@ -35,6 +37,6 @@ The script performs the following activities:
 
 To run the script:  
 ```
-\> source("download_data_clean_proj.R")  
-\> download_data_clean_proj()  
+> source("download_data_clean_proj.R")  
+> download_data_clean_proj()  
 ```
